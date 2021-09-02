@@ -1,0 +1,477 @@
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0 auto;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+.wrapper {
+  width: 100%;
+  margin: auto;
+}
+/* add styles to header area */
+.header {
+  margin: 0px;
+  padding: 0;
+  height: 80vh;
+}
+.nav-area {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 20px;
+  position: fixed;
+  top: 0;
+}
+.navigation {
+  padding-top: 10px;
+  padding-right: 60px;
+}
+.logo {
+  padding-left: 120px;
+}
+.navigation a {
+  color: #363636;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 600;
+  padding-left: 20px;
+  transition: 0.4s ease;
+}
+.navigation a:hover {
+  color: rgb(47, 125, 199);
+}
+.header-content {
+  display: flex;
+  margin-top: 70px;
+  background-image: url(/img/header_bg.jpg);
+  background-size: cover;
+  height: auto;
+  width: 100vw;
+}
+.header-left-content {
+  padding-top: 120px;
+  padding-left: 120px;
+}
+.header-left-content p {
+  width: 40%;
+  color:#727374;
+}
+.header-left-content button {
+  cursor: pointer;
+  margin-top: 30px;
+  margin-right: 15px;
+  padding-top: 6.3px;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  color: rgb(255, 255, 255);
+  background-color: rgb(47, 57, 199);
+  font-size: 18px;
+  transition: 0.4s ease;
+}
+.header-left-content button:hover{
+  background-color: white;
+  color: rgb(47, 57, 199);
+}
+ .up-btn-area {
+  width: 93%;
+  text-align: right;
+} 
+.up-btn {
+  cursor: pointer;
+  position: fixed;
+  bottom: 10px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgb(47, 57, 199);
+  color: white;
+  font-size: 28px;
+  text-align: center;
+  text-decoration: none;
+}
+/* set styles for about section */
+.about-section {
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+}
+.about-img {
+  width: 50%;
+}
+.about-img img {
+  width: 100%;
+}
+.about-content {
+  padding-top: 40px;
+  padding-left: 30px;
+  line-height: 1;
+  width: 25%;
+}
+.about-content h2 {
+  margin-bottom: 0;
+}
+.subtitle {
+  color: rgb(70, 178, 240);
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.about-list {
+  padding: 0;
+}
+.about-item {
+  list-style:none;
+}
+.fa-arrow-right {
+  color: rgb(70, 178, 240);
+  padding-right: 5px;
+  font-size: 10px;
+}
+.about-item h5 {
+  margin-bottom: 0;
+}
+.about-item p {
+  font-size: 12px;
+}
+/* set styles for services section */
+.services-section {
+  width: 100%;
+  margin: 20px 0;
+  padding-bottom: 30px;
+  background-image: url(/img/services_bg.jpg);
+  background-size: cover;
+}
+.services-section h2 {
+  text-align: center;
+  padding-top: 45px;
+  margin-bottom: 0;
+}
+.services-subtitle {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 12px;
+}
+.services-items-top,
+.services-items-bottom {
+  margin: 0 auto;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.services-item {
+  width: auto;
+  background-color: white;
+  margin: 13px;
+  padding: 15px;
+}
+.services-item img {
+  margin: 0;
+}
+.services-item h5 {
+  margin: 0;
+}
+.services-item p {
+  font-size: 12px;
+}
+/* price styles are here */
+.price-section {
+  margin: 0;
+  padding-bottom: 10px;
+  width: 100%;
+  background-image: url(/img/pricing_bg.jpg);
+  background-size: cover;
+}
+.price-section h2 {
+  text-align: center;
+  margin: 0;
+  padding-top: 50px;
+}
+.price-subtitle {
+  text-transform: uppercase;
+  font-size: 12px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.offers-items {
+  margin: 40px 0;
+  width: 98%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  line-height: 2;
+}
+.offers-item {
+  background-color: rgb(98, 208, 235);
+  width: 25%;
+  margin-top: 50px;
+  padding: 20px 0;
+  color: white;
+  vertical-align: middle;
+}
+.offers-item .price {
+  font-size: 40px;
+  font-weight: 600;
+  margin: 0;
+  line-height: 1;
+}
+.offers-items p {
+  font-size: 12px;
+}
+.offers-middle-item {
+  margin-top: 50px;
+  padding: 40px 0;
+  width: 25%;
+  border: 1.5px solid rgb(11, 113, 209);
+  color: rgb(27, 128, 223);
+  background-color: white;
+  vertical-align: middle;
+}
+.offers-middle-item .price {
+  font-size: 40px;
+  margin: 0;
+  font-weight: 600;
+  line-height: 1;
+}
+/* add style to buttons inside price section */
+.offers-items button {
+  padding: 8px 14px;
+  color: rgb(27, 128, 223);
+  font-weight: 600;
+  background-color: white;
+  border-radius: 8px;
+  border: 1.5px solid rgb(27, 128, 223);
+  transition: 0.4s ease;
+}
+.offers-items button:hover {
+  background-color: rgb(64, 179, 224);
+  color: white;
+  border: 1.5px solid rgb(255, 255, 255);
+}
+/* contact section */
+.contact-section {
+  margin: 0;
+  padding-top: 30px;
+  width: 100%;
+  display: flex;
+}
+.contact-img {
+  width: 50%;
+}
+.contact-img img {
+  width: 100%;
+  height: 100%;
+}
+.contact-content {
+  margin: 0;
+  width: 50%;
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.contact-content h2 {
+  margin: 0;
+  padding: 0;
+} 
+.contact-subtitle {
+  padding-bottom: 10px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+hr {
+  color: #f0f0f0;
+}
+.contact-form input {
+ border: none;
+ padding-top: 10px;
+ padding-left: 10px;
+ font-style: italic;
+}
+.contact-form select {
+  border: none;
+}
+.contact-btn {
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  color: white;
+  font-weight: 600;
+  background-color: rgb(47, 57, 199);
+  border: none;
+  border-radius: 8px;
+  transition: 0.4s ease;
+}
+.contact-btn:hover {
+  color: rgb(47, 57, 199);
+  background-color: white;
+  outline: 1.5px solid rgb(47, 57, 199);
+}
+/* footer */
+.footer {
+  background: rgb(46, 46, 46);
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+.footer p {
+  margin: 0;
+  padding: 30px 0;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* set styles for tablets */
+@media screen and (min-width: 769px) and (max-width: 1100px) {
+  .wrapper {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .header {
+    height: auto;
+  }
+  .logo {
+    padding-left: 20px;
+  }
+  .navigation {
+    padding-right: 30px;
+  }
+  .header-content {
+    height: auto;
+    width: 100%;
+  }
+  .header-left-content {
+    padding-top: 40px;
+    padding-left: 20px;
+  }
+  .about-img {
+    width: 100%;
+    padding-top: 40px;
+  } 
+  .about-content {
+    padding-top: 20px;
+    width: 45%;
+  } 
+  .services-items-top,
+  .services-items-bottom {
+    margin: 0 auto;
+    width: 98%;
+  }
+  .offers-items {
+    width: 100%;
+  }
+  .offers-item,
+  .offers-middle-item {
+    width: 33.33%;
+  }
+  .contact-img {
+    width: 100%;
+  }
+  .contact-content {
+    position: relative;
+    left: -150px;
+    width: 50%;
+  }
+  .contact-btn {
+    margin-bottom: 15px;
+    margin-left: 15px;
+  }
+}
+/* set mobile styles */
+@media screen and (min-width: 360px) and (max-width:768px) {
+  .wrapper {
+    width: 100%;
+  }
+  .nav-area {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+  .logo,
+  .navigation {
+    padding: 0;
+  }
+  .header-content {
+    background-image: none;
+    height: auto;
+    margin-bottom: 60px;
+  }
+  .header-left-content {
+    padding: 40px 10px 0 10px;
+    width: 100%;
+    text-align: center;
+  }
+  .header-left-content p {
+    width: 100%;
+  }
+  .header-left-content button {
+    margin-top: 0px;
+  }
+  .up-btn-area {
+    width: 86%;
+  } 
+  .about-section {
+    flex-direction: column;
+  }
+  .about-img {
+    width: 100%;
+  } 
+  .about-content {
+    padding-top: 0px;
+    padding-left: 20px;
+    line-height: 1;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-size: 14px;
+  }
+  .services-items-top,
+  .services-items-bottom {
+    margin: 0 auto;
+    width: 90%;
+    flex-direction: column;
+  }
+  .services-item {
+    width: auto;
+    background-color: white;
+    margin: 13px;
+    padding: 15px;
+  }
+  .offers-items {
+    margin-top: 20px;
+    flex-direction: column;
+  }
+  .offers-item,
+  .offers-middle-item {
+    width: 90%;
+    margin: auto;
+  }
+   .contact-section {
+    flex-direction: column;
+  }
+  .contact-img {
+    width: 100%;
+  } 
+  .contact-content {
+    margin:auto;
+    width: 80%;
+    padding-top: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+  } 
+  .contact-btn {
+    margin-bottom: 15px;
+    text-align: center;
+  }
+}
