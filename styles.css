@@ -49,7 +49,7 @@ body {
 .header-content {
   display: flex;
   margin-top: 70px;
-  background-image: url(/img/header_bg.jpg);
+  background-image: url(img/header_bg.jpg);
   background-size: cover;
   height: auto;
   width: 100vw;
@@ -147,7 +147,7 @@ body {
   width: 100%;
   margin: 20px 0;
   padding-bottom: 30px;
-  background-image: url(/img/services_bg.jpg);
+  background-image: url(img/services_bg.jpg);
   background-size: cover;
 }
 .services-section h2 {
@@ -188,7 +188,7 @@ body {
   margin: 0;
   padding-bottom: 10px;
   width: 100%;
-  background-image: url(/img/pricing_bg.jpg);
+  background-image: url(img/pricing_bg.jpg);
   background-size: cover;
 }
 .price-section h2 {
